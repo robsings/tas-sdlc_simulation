@@ -1,10 +1,6 @@
 name: CI Unit level
 
-on:
-  push:
-    branches: [master]
-  pull_request:
-    branches: [master]
+on: [push]
 
 jobs:
   test:
