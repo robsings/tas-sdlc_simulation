@@ -7,22 +7,22 @@ def add_random():
 def test_add():
     a,b = add_random()
     result = calculate(a, b, "1") 
-    print(f"Num 1:{a} + Num 2:{b} = {result}")
+    print(f"\nCT 1: \nNum 1:{a} + Num 2:{b} = {result}")
     assert result == a + b
 def test_sub():
     a,b = add_random()
     result = calculate(a, b, "2")
-    print(f"Num 1:{a} - Num 2:{b} = {result}")
+    print(f"\nCT 2: \nNum 1:{a} - Num 2:{b} = {result}")
     assert calculate(a, b, "2") == a - b
 def test_mul():
     a,b = add_random()
     result = calculate(a, b, "3")
-    print(f"Num 1:{a} * Num 2:{b} = {result}")
+    print(f"\nCT 3: \nNum 1:{a} * Num 2:{b} = {result}")
     assert result == a * b
 def test_div():
     a,b = add_random()
     result = calculate(a, b, "4")
-    print(f"Num 1:{a} / Num 2:{b} = {result}")
+    print(f"\nCT 4: \nNum 1:{a} / Num 2:{b} = {result}")
     assert result == a / b
 
 # python -m pytest -s
