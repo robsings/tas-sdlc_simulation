@@ -1,4 +1,4 @@
-name: CI - Unit level
+name: CI Unit level
 
 on:
   push:
