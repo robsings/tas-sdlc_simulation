@@ -10,4 +10,5 @@ Este repositório tem como objetivo criar uma solução de automação de teste 
 
 ## Referências:
 ### Pirâmide de testes:
-![Imagem 1](./unnamed.webp)
+•  ![Imagem 1](./unnamed.webp)
+
